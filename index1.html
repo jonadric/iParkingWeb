@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='description' content=''>
+  <meta name='author' content=''>
+  <title>iParking</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.6/css/grayscale.min.css' rel='stylesheet'>
+</head>
+<body id='page-top'>
+  <nav class='navbar navbar-expand-lg navbar-light fixed-top' id='mainNav'>
+    <div class='container'>
+      <a class=' navbar-brand js-scroll-trigger ' href='#page-top'>i<i class='fas fa-parking'></i>arking</a>
+    </div>
+  </nav>
+  <header class='masthead'>
+    <div class='container d-flex h-100 align-items-center'>
+      <div class='mx-auto text-center'>
+        <h1 class='mx-auto my-0 text-uppercase'>iParking</h1>
+        <h2 class='text-white mx-auto mt-2 mb-5'>El primer parqueadero inteligente en Colombia al alcance de tu mano.</h2>
+        <h2 class='text-white mx-auto mt-2 mb-5'> ¡ Pide o aparta ahora mismo!</h2>
+        <button type='button' class='btn btn-outline-light border'><a href='#reserva' type='button' class='btn btn-light'>Reserva aquí</a></button>
+      </div>
+    </div>
+  </header>
+  <section  class='about-section text-center'>
+    <div class='container ' id='reserva' >
+      <img src='http://www.campingflorantilles.com/wp-content/uploads/2016/02/service6.png' class='thumbnail img-responsive '  alt=''>
+      <div class='row'>
+      <!-- <div class='row ocultar' id='reservado'> -->
+        <div class='col-lg-8 mx-auto'>
+          <h2 class='text-white mb-4'>¡Reserva con i<i class='fas fa-parking'></i>arking con un solo click!</h2>
+          <p class='text-white-50'>Con iParking puedes ocupar un puesto para Carro, Moto o Bici. Selecciona una ubicación y luego pulsa el botón
+            <a href='#reserva'> 'P'</a> para ocupar un parqueadero disponible. </p>
+            <!-- <button  type='button' onclick='bntCartaReserva()' class='border border-light btn btn-outline-light'><h1 class=''><i class='fas fa-parking'></i></h1></button> -->
+
+            <a href=''/LED/ON\''><button  type='button' onclick='bntCartaReserva()' class='border border-light btn btn-outline-light'><h1 class=''><i class='fas fa-parking'></i></h1></button></a>
+<br>
+<br>
+<div class=''>
+
+  <div id='casa' class=' ' style=''>
+    <form method='get' action='https://www.google.com/maps' target='mapframe'>
+      <div class='input-group mb-3'>
+        <select class='custom-select form-control-lg' id='inputGroupSelect01' name='saddr' type='text' id='saddr'>
+          <option selected>Selecciona la ubicacion</option>
+          <option value='parqueadero Antonio Nariño'>Antonio Nariño</option>
+          <option value='parqueadero Barrios Unidos'>Barrios Unidos</option>
+          <option value='parqueadero Bosa'>Bosa</option>
+          <option value='parqueadero Chapinero'>Chapinero</option>
+          <option value='parqueadero Universidad Manuela Betran,Bogota'>Chapinero Alto</option>
+          <option value='parqueadero Ciudad Bolívar'>Ciudad Bolívar</option>
+          <option value='parqueadero Engativá'>Engativá</option>
+          <option value='parqueadero Fontibón'>Fontibón</option>
+          <option value='parqueadero Kennedy'>Kennedy</option>
+          <option value='parqueadero La Candelaria'>La Candelaria</option>
+          <option value='parqueadero Los Mártires'>Los Mártires</option>
+          <option value='parqueadero Puente Aranda'>Puente Aranda</option>
+          <option value='parqueadero Rafael Uribe Uribe'>Rafael Uribe Uribe</option>
+          <option value='parqueadero San Cristóbal'>San Cristóbal</option>
+          <option value='parqueadero Santa Fe'>Santa Fe</option>
+          <option value='parqueadero Suba'>Suba</option>
+          <option value='parqueadero Sumapaz'>Sumapaz</option>
+          <option value='parqueadero Tunjuelito'>Tunjuelito</option>
+          <option value='parqueadero Usaquén'>Usaquén</option>
+          <option value='parqueadero Usme'>Usme</option>
+          <option value='parqueadero Funza'>Funza, Cundinamarca</option>
+          <option value='parqueadero Chia'>Chia, Cundinamarca</option>
+          <option value='parqueadero Cajica'>Cajica, Cundinamarca</option>
+        </select>
+      </div>
+      <div class='input-group-prepend justify-content-center'>
+        <button class='btn btn-sm btn-inline-light border btn-outline-danger  border' for='inputGroupSelect01' type='submit' name='Submit' onclick='window.location.href=\'/LED/ON\'' value='Submit'> Apartar ubicación <i class='fas fa-map-marker-alt'></i> </button>
+
+      </div>
+      <br>
+      <input name='output' type='hidden' value='embed' >
+      <input name='f' type='hidden' value='d'>
+      <input name='z' type='hidden' value='14'>
+      <input name='daddr' type='hidden' id='daddr'
+      value='Universidad Manuela beltran, Bogota'>
+    </form>
+  </div>
+</div>
+        <button href='#' id='bntVerMapa' class='btn btn-primary' onclick='bntMapa()' >Ver mapa</button>
+
+<br>
+<br>
+
+
+          <!-- <div id='mapa'  class='d-flex p-2 bd-highlight' > -->
+            <div id='mapa' class='ocultar ' >
+            <iframe class='' name='mapframe' width='100%' height='500px' src='https://www.google.com/maps?z=17&amp;f=d&amp;output=embed&amp;ll=4.6422445,-74.0562232'>
+            </iframe>
+            <a href=\'/LED/ON\' class='border border-danger btn btn-danger'><h1><i class='fas fa-parking'></i></h1></a>
+          </div>
+            <!-- <h2 class='text-white mb-4'>iParking</h2> -->
+
+      </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- //CARTA PARA QUITAR O PONER -->
+<div id='cartaReserva' class='justify-content-center row '>
+<!-- <div class=' justify-content-center row ocultar'> -->
+    <div class='card col-sm-4 center-block ' style='width: 20rem;'>
+      <div class='card-body'>
+        <h5 class='card-title'>Listo, ¡Encontramos un puesto!</h5>
+        <p class='card-text'>Gracias por usar iParking, recuerda compartir y usar siempre la App</p>
+          <h3>Puesto # 2</h3>
+      </div>
+      <img src='https://upload.wikimedia.org/wikipedia/commons/e/e5/SPAYD_stored_in_the_QR_code.png' class='card-img-top' alt='...'>
+
+      <ul class='list-group list-group-flush'>
+        <li class='list-group-item'>Llegar 10 o 5 minutos antes</li>
+        <li class='list-group-item'>Pagar en efectivo</li>
+        <li class='list-group-item'>Puedes cancelar tu reserva, cambiar horario y ubicación</li>
+      </ul>
+      <div class='card-body'>
+
+        <button href='#' class='btn btn-inline-dark border'>  <a href='https://api.whatsapp.com/send?phone=+573192134510&text=Hola,%20acabe%20de%20reservar%20un%20parqueadero%20desde%20la%20aplicaci%C3%B3n%20iParking'>Contactar</a> <i class='fas fa-parking'></i></button>
+
+    </div>
+    </div>
+    <!-- //TERMINA CARTA -->
+    <br>
+
+  </section>
+<script src='vendor/jquery/jquery.min.js'></script>
+<script src='vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+<script src='vendor/jquery-easing/jquery.easing.min.js'></script>
+<script src='js/grayscale.min.js'></script>
+</body>
+</html>
+<script>
+mapaVisible=false;
+ function bntMapa(){
+if (mapaVisible==true) {
+  document.getElementById('bntVerMapa').innerHTML='Ver Mapa';
+mapaVisible=false;
+}
+else{
+  document.getElementById('bntVerMapa').innerHTML='Ocultar Mapa';
+  mapaVisible=true;
+}
+document.getElementById('mapa').classList.toggle('d-flex');
+document.getElementById('mapa').classList.toggle('ocultar');
+ }
+ function bntCartaReserva(){
+   document.getElementById('reserva').classList.toggle('ocultar');
+
+ }
+
+</script>
+<style type='text/css'>
+.ocultar{
+  visibility: hidden;
+  display: none;
+}
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.3)),color-stop(75%,rgba(22,22,22,.7)),to(#161616)),url(https://i.ibb.co/Q62dsPh/iparking2-1.png);
+  /* background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/bg-masthead.jpg); */
+  /<a href='https://ibb.co/tb7Xyqn'><img src='https://i.ibb.co/Q62dsPh/iparking2-1.png' alt='iparking2-1' border='0'></a>/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.contact-section {
+  padding: 0rem 0 0;
+}
+</style>
